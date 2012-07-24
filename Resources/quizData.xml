@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<quiz questionsNumber="6">
+	<question>
+		<text>Most expensive film</text>
+		<variants>Avatar</variants>
+		<variants>Mission Impossible</variants>
+		<variants>Iron man</variants>
+		<correctAnswer>1</correctAnswer>
+        <points>25</points>
+	</question>
+	<question>
+		<text>Actor in Shawshank Redemption</text>
+		<variants>Tom Cruise</variants>
+		<variants>Morgan Freeman</variants>
+		<variants>Bill Murray</variants>
+		<correctAnswer>2</correctAnswer>
+        <points>100</points>
+	</question>
+	<question>
+		<text>Most famous award </text>
+		<variants>Golden strawberry</variants>
+		<variants>Golden globe</variants>
+		<variants>Oscar</variants>
+		<correctAnswer>3</correctAnswer>
+        <points>50</points>
+	</question>
+	<question>
+		<text>Director of Jurassic park</text>
+		<variants>Steven Spielberg</variants>
+		<variants>Christopher Nolan</variants>
+		<variants>James Jarmoush</variants>
+		<correctAnswer>1</correctAnswer>
+        <points>75</points>
+	</question>
+	<question>
+		<text>Hero of E.T.</text>
+		<variants>UFO</variants>
+		<variants>Dolphin</variants>
+		<variants>James Bond</variants>
+		<correctAnswer>1</correctAnswer>
+        <points>5</points>
+	</question>
+	<question>
+		<text>Actress starred in Mask</text>
+		<variants>Celine Dione</variants>
+		<variants>Cameron Diaz</variants>
+		<variants>Jessica Alba</variants>
+		<correctAnswer>2</correctAnswer>
+        <points>225</points>
+	</question>
+</quiz>
