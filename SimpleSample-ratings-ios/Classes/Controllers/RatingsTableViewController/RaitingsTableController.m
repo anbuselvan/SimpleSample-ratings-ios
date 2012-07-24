@@ -154,12 +154,7 @@
         }else if ([result isKindOfClass:[QBRGameModeParameterValueResult class]]) {
             
             // Get top 10 scores from server
-            QBRScoreGetRequest* getRequest = [[QBRScoreGetRequest alloc] init];
-            getRequest.sortAsc = YES;
-            getRequest.sortBy = ScoreSortByKindValue;
-            
             [QBRatings topNScores:10 gameModeID:GAME_MODE_ID delegate:self];
-            [getRequest release];
             
         // QuickBlox get top N scores result
         }else if ([result isKindOfClass:[QBRScorePagedResult class]]) {

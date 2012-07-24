@@ -1,4 +1,10 @@
-SimpleSample-ratings-ios
-========================
+This sample demonstrates how to work with Ratings QuickBlox module. 
 
-QuickBlox SimpleSample-ratings-ios
+It allows to see other users' scores and post own. 
+
+It shows how to:
+- Retrieve top 10 scores
+- Post own score
+- Use custom parameters
+
+Sample description - http://quickblox.com/developers/SimpleSample-ratings-ios
