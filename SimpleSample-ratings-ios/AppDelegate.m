@@ -1,30 +1,29 @@
 //
 //  AppDelegate.m
-//  QuickQuiz
+//  SimpleSample-ratings-ios
 //
-//  Created by kirill on 7/10/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Ruslan on 7/10/12.
+//  Copyright (c) 2012 QuickBlox. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
-#import "SplashScreenController.h"
+#import "MainViewController.h"
+#import "SplashViewController.h"
 
 @implementation AppDelegate
 
 @synthesize window = _window;
-@synthesize mainViewController = _mainViewController;
+@synthesize navigationController;
 
 - (void)dealloc
 {
     [_window release];
-    [_mainViewController release];
+    [navigationController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
     // Set QuickBlox credentials (You must create application in admin.quickblox.com)
     [QBSettings setApplicationID:92];
     [QBSettings setAuthorizationKey:@"wJHdOcQSxXQGWx5"];
@@ -33,16 +32,19 @@
     // Additional setup
     [QBSettings setRestAPIVersion:@"0.1.1"]; // version of server API
     
-    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
-    _mainViewController = [[MainViewController alloc] init];
-    self.window.rootViewController = _mainViewController;
     [self.window makeKeyAndVisible];
 
-    SplashScreenController* splashScreen = [[SplashScreenController alloc] init];
+    // create navigation controller with root main view controller
+    MainViewController *mainViewController = [[MainViewController alloc] init];
+    self.navigationController = [[[UINavigationController alloc] initWithRootViewController:mainViewController] autorelease];
+    [mainViewController release];
+    
+    [self.window setRootViewController:self.navigationController];
 
-    [_mainViewController presentModalViewController:splashScreen animated:NO];
-
+    // Show splash
+    SplashViewController* splashScreen = [[SplashViewController alloc] init];
+    [navigationController presentModalViewController:splashScreen animated:NO];
     [splashScreen release];
 
     return YES;

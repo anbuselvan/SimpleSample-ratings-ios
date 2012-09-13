@@ -1,9 +1,9 @@
 //
 //  main.m
-//  QuickQuiz
+//  SimpleSample-ratings-ios
 //
-//  Created by kirill on 7/10/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Created by Ruslan on 9/11/12.
+//  Copyright (c) 2012 QuickBlox. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
