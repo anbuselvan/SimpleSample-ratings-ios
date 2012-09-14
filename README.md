@@ -12,4 +12,4 @@ It shows how to:
 
 Original sample description & setup guide - [http://quickblox.com/developers/SimpleSample-ratings-ios](http://quickblox.com/developers/SimpleSample-ratings-ios)
 
-![Average ratings](http://files.quickblox.com/SimpleSample-ratings-ios_v2_1.png) &nbsp;&nbsp;&nbsp;&nbsp; ![Rate item](http://files.quickblox.com/SimpleSample-ratings-ios_v2_1.png)
+![Average ratings](http://files.quickblox.com/SimpleSample-ratings-ios_v2_1.png) &nbsp;&nbsp;&nbsp;&nbsp; ![Rate item](http://files.quickblox.com/SimpleSample-ratings-ios_v2_2.png)
