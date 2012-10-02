@@ -19,7 +19,7 @@
 @synthesize ratingButton;
 @synthesize movie;
 @synthesize detailsText;
-@synthesize movieImageView;
+@synthesize moviImageView;
 @synthesize alertRatingView;
 
 - (void)viewDidLoad
@@ -29,7 +29,7 @@
     self.title = movie.movieName;
 
     [self.detailsText setText:[movie movieDetails]];
-    [self.movieImageView setImage:[UIImage imageNamed:[movie movieImage]]];
+    [self.moviImageView setImage:[UIImage imageNamed:[movie movieImage]]];
     
     self.ratingView = [[[RateView alloc] initWithFrameBig:CGRectMake(40, 328, 240, 40)] autorelease];
     self.ratingView.alignment = RateViewAlignmentLeft;

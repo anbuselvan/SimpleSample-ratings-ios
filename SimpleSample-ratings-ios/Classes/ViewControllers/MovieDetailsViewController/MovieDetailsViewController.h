@@ -17,7 +17,7 @@
 @interface MovieDetailsViewController : UIViewController <RateViewDelegate, QBActionStatusDelegate>
 
 @property (retain, nonatomic) IBOutlet UITextView *detailsText;
-@property (retain, nonatomic) IBOutlet UIImageView *movieImageView;
+@property (retain, nonatomic) IBOutlet UIImageView *moviImageView;
 @property (retain, nonatomic) IBOutlet UIButton *ratingButton;
 
 @property (nonatomic, retain) Movie *movie;
