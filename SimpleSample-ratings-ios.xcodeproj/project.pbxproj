@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		431EE5151600A42A00E85366 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 431EE5141600A42A00E85366 /* images.jpeg */; };
 		438146731600A13200A508F5 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 438146701600A13200A508F5 /* images.jpg */; };
-		43E95E6F161AE7A500F0A956 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43E95E6E161AE7A500F0A956 /* Quickblox.framework */; };
+		43900C10162455930041381B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 43900C0F162455930041381B /* Default-568h@2x.png */; };
+		43EB469116241ADA00A88FF1 /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EB469016241ADA00A88FF1 /* Quickblox.framework */; };
 		43ECA73D1600984D005DC731 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43ECA73F1600984D005DC731 /* SplashViewController.xib */; };
 		ED3BA44B15AC1097002B8CFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3BA44A15AC1097002B8CFE /* UIKit.framework */; };
 		ED3BA44D15AC1097002B8CFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3BA44C15AC1097002B8CFE /* Foundation.framework */; };
@@ -22,7 +23,6 @@
 		ED3BA49515AC1DC9002B8CFE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3BA49415AC1DC9002B8CFE /* libz.dylib */; };
 		ED3BA49715AC1DD8002B8CFE /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3BA49615AC1DD8002B8CFE /* libresolv.dylib */; };
 		ED3BA49915AC1E04002B8CFE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3BA49815AC1E04002B8CFE /* libxml2.dylib */; };
-		FA023EBA1602324000948B7E /* Quickblox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA023EB91602324000948B7E /* Quickblox.framework */; };
 		FA023ED01602335C00948B7E /* fight_club.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA023EC01602335C00948B7E /* fight_club.jpg */; };
 		FA023ED11602335C00948B7E /* godfather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA023EC11602335C00948B7E /* godfather.jpg */; };
 		FA023ED21602335C00948B7E /* hachiko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA023EC21602335C00948B7E /* hachiko.jpg */; };
@@ -59,7 +59,8 @@
 /* Begin PBXFileReference section */
 		431EE5141600A42A00E85366 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
 		438146701600A13200A508F5 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
-		43E95E6E161AE7A500F0A956 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quickblox.framework; path = "../../git/SDK-ios/Framework/build/Framework/Quickblox.framework"; sourceTree = "<group>"; };
+		43900C0F162455930041381B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		43EB469016241ADA00A88FF1 /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
 		43ECA73E1600984D005DC731 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SplashViewController.xib; sourceTree = "<group>"; };
 		ED3BA44615AC1097002B8CFE /* SimpleSample-ratings-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SimpleSample-ratings-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3BA44A15AC1097002B8CFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -73,7 +74,6 @@
 		ED3BA49415AC1DC9002B8CFE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		ED3BA49615AC1DD8002B8CFE /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		ED3BA49815AC1E04002B8CFE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		FA023EB91602324000948B7E /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quickblox.framework; path = QuickBlox_iOS_SDK_v.1.2.0/Quickblox.framework; sourceTree = "<group>"; };
 		FA023EC01602335C00948B7E /* fight_club.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fight_club.jpg; sourceTree = "<group>"; };
 		FA023EC11602335C00948B7E /* godfather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = godfather.jpg; sourceTree = "<group>"; };
 		FA023EC21602335C00948B7E /* hachiko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hachiko.jpg; sourceTree = "<group>"; };
@@ -132,8 +132,7 @@
 				ED3BA48B15AC1D86002B8CFE /* CFNetwork.framework in Frameworks */,
 				ED3BA44B15AC1097002B8CFE /* UIKit.framework in Frameworks */,
 				ED3BA44D15AC1097002B8CFE /* Foundation.framework in Frameworks */,
-				FA023EBA1602324000948B7E /* Quickblox.framework in Frameworks */,
-				43E95E6F161AE7A500F0A956 /* Quickblox.framework in Frameworks */,
+				43EB469116241ADA00A88FF1 /* Quickblox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +160,9 @@
 		ED3BA44915AC1097002B8CFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				43E95E6E161AE7A500F0A956 /* Quickblox.framework */,
+				43EB469016241ADA00A88FF1 /* Quickblox.framework */,
 				ED3BA49815AC1E04002B8CFE /* libxml2.dylib */,
 				ED3BA49615AC1DD8002B8CFE /* libresolv.dylib */,
-				FA023EB91602324000948B7E /* Quickblox.framework */,
 				ED3BA49415AC1DC9002B8CFE /* libz.dylib */,
 				ED3BA49215AC1DBA002B8CFE /* CoreData.framework */,
 				ED3BA49015AC1DB1002B8CFE /* CoreLocation.framework */,
@@ -285,6 +283,7 @@
 				FA6ECF5E15BEA59D00833341 /* logo.png */,
 				438146701600A13200A508F5 /* images.jpg */,
 				431EE5141600A42A00E85366 /* images.jpeg */,
+				43900C0F162455930041381B /* Default-568h@2x.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -398,6 +397,7 @@
 				FA023EDE1602335C00948B7E /* StarFullLarge@2x.png in Resources */,
 				FA023EFF160233E700948B7E /* MainViewController.xib in Resources */,
 				FA023F00160233E700948B7E /* MovieDetailsViewController.xib in Resources */,
+				43900C10162455930041381B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,11 +487,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads\"",
-					"\"$(SRCROOT)/../SDK-ios/Framework/build/Framework\"",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/QuickBlox_iOS_SDK_v.1.2.0\"",
-					"\"$(SRCROOT)/../../git/SDK-ios/Framework/build/Framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleSample-ratings-ios/SimpleSample-ratings-ios-Prefix.pch";
@@ -560,11 +556,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads\"",
-					"\"$(SRCROOT)/../SDK-ios/Framework/build/Framework\"",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/QuickBlox_iOS_SDK_v.1.2.0\"",
-					"\"$(SRCROOT)/../../git/SDK-ios/Framework/build/Framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleSample-ratings-ios/SimpleSample-ratings-ios-Prefix.pch";
@@ -584,11 +576,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../../Downloads\"",
-					"\"$(SRCROOT)/../SDK-ios/Framework/build/Framework\"",
 					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/QuickBlox_iOS_SDK_v.1.2.0\"",
-					"\"$(SRCROOT)/../../git/SDK-ios/Framework/build/Framework\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleSample-ratings-ios/SimpleSample-ratings-ios-Prefix.pch";

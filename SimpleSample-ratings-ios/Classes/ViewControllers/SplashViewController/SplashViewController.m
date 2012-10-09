@@ -7,6 +7,7 @@
 //
 
 #import "SplashViewController.h"
+#import "MainViewController.h"
 #import "DataManager.h"
 #import "Movie.h"
 
@@ -16,6 +17,7 @@
 
 @implementation SplashViewController
 @synthesize activityIndicator;
+@synthesize delegate;
 
 - (void)viewDidLoad
 {
@@ -30,10 +32,17 @@
     [QBAuth createSessionWithExtendedRequest:extendedAuthRequest delegate:self];
     
     [extendedAuthRequest release];
+    
+    if(IS_HEIGHT_GTE_568){
+        CGRect frame = self.activityIndicator.frame;
+        frame.origin.y += 44;
+        [self.activityIndicator setFrame:frame];
+    }
 }
 
 - (void)viewDidUnload
 {
+    [self setDelegate:nil];
     [self setActivityIndicator:nil];
     [super viewDidUnload];
 }
@@ -47,6 +56,10 @@
     [self dismissModalViewControllerAnimated:YES];
 }
 
+- (void)dealloc{
+    [delegate release];
+    [super dealloc];
+}
 #pragma mark -
 #pragma mark QBActionStatusDelegate
 
@@ -87,11 +100,13 @@
                     Movie *movie = (Movie *)[[[DataManager shared] movies] objectAtIndex:i];
                     if(average.gameModeID == [movie gameModeID]){
                         [movie setRating:average.value];
+
                         break;
                     }
                 }
             }
             
+            [((MainViewController*)self.delegate).tableView reloadData];
             // hide splash
             [self performSelector:@selector(hideSplashScreen) withObject:self afterDelay:1];
         }

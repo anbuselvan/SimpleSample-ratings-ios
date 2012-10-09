@@ -41,12 +41,18 @@
     self.alertRatingView.alignment = RateViewAlignmentLeft;
     self.alertRatingView.editable = YES;
     self.alertRatingView.delegate = self;
+    
+    if(IS_HEIGHT_GTE_568){
+        CGRect frame = self.ratingView.frame;
+        frame.origin.y += 88;
+        [self.ratingView setFrame:frame];
+    }
 }
 
 - (void)viewDidUnload
 {
     [self setDetailsText:nil];
-    [self setMovieImageView:nil];
+    [self setMoviImageView:nil];
     [self setRatingButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
